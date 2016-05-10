@@ -7,23 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.jsinger5015.hangman.MainActivity">
+    tools:context="com.example.jsinger5015.hangman.MainActivity"
+    android:clickable="true">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Marquitas phone is annoying"
+        android:text="Welcome to Hangman"
         android:padding="15dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textColor="#78eb8b"
         android:id="@+id/textView2"
-        android:textSize="20dp" />
+        android:textSize="20dp"
+        android:longClickable="false" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kathleen"
+        android:text="Are you ready?"
         android:id="@+id/textView"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
@@ -32,12 +34,13 @@
         android:textSize="20dp" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Let&apos;s begin!"
         android:id="@+id/b1"
+        android:onClick="buttonA2"
+        android:backgroundTint="@android:color/holo_red_light"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="141dp"
-        android:onClick="b1" />
+        android:layout_marginBottom="32dp" />
 </RelativeLayout>
