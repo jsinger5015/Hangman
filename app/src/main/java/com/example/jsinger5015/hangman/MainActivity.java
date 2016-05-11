@@ -8,15 +8,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void buttonA2 (View view){
     b1 Button button = (Button) findViewById(R.id.b1);
-    button.setOnClickListener(new View.OnClickListener() {
-        public void onClick(View Main2Activity) {
-
-        }}
-
-
-
-
-
+    button.setOnClickListener(new View.OnClickListener()
+        }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
