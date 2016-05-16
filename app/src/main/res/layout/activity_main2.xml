@@ -377,8 +377,15 @@
         android:clickable="true"
         android:onClick="addLetter"/>
 
-
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/f"
+        android:layout_alignEnd="@+id/f"
+        android:onClick="bButton" />
 
 
 </RelativeLayout>
