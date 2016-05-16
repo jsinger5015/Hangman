@@ -49,4 +49,14 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/c"
         android:layout_toEndOf="@+id/c" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="bMain" />
 </RelativeLayout>
