@@ -22,14 +22,22 @@ public class Main2Activity extends AppCompatActivity {
     public void addLetter(View view) {
         TextView ltrs = (TextView) view;
         ltrs.setVisibility(View.INVISIBLE);
-        //withLetters(ltrs);
+        withLetters(ltrs);
 
     }
 
     public void withLetters(TextView letter) {
+        lines(ofWords());
         if (letInWord(letter)) addLetters();
         else notThere();
     }
+
+
+    public void lines(String[] words){
+        words = ofWords();
+
+    }
+
 
     public void addLetters() {
 
