@@ -49,7 +49,9 @@ public class Main2Activity extends AppCompatActivity {
                 "Silky", "Moth", "Dumb", "Bearish", "Stupid", "Bimonthly", "Bisulfate", "Love", "Hate", "Like", "Luminous", "Spark", "Fire",
                 "Breathing", "Document", "Computer", "Bystander", "Keyboard", "Righteously", "Waterbed", "Ocean",
                 "Swim", "dive", "Die", "Republicans", "Hacker", "Flowchart", "Time", "Horse", "Dragon", "Cave", "Navy", "Army", "Glad", "Documentarily",
-                "Pants", "Uncopyrightable" };
+                "Pants", "Uncopyrightable", "Chair", "Mouse", "Ambidextrously", "Answer", "Picture", "Stem", "Shoe",
+                "Plant", "Watch", "Lymph", "Guitar", "Trash", "Magnet", "Bored", "Neck", "Subordinately", "Consumable", "Ownership", "Police", "Unproblematic",
+                 "Loser", "Serial","Bankruptcy" };
 
         return words;
     }
