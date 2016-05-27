@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    int wc;//wrong count
 
     public void buttonA2(View view) {
         Intent i = new Intent(getApplicationContext(), Main2Activity.class);
@@ -19,5 +20,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
 }
+
+
+
+
+
+
+
