@@ -28,9 +28,7 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         lines();
-
     }
-
     public void addLetter(View view) {
         TextView ltrs = (TextView) view;
         ltrs.setVisibility(View.INVISIBLE);
@@ -43,6 +41,7 @@ public class Main2Activity extends AppCompatActivity {
         } else {
             notThere();
         }
+
     }
 
 
@@ -68,9 +67,16 @@ public class Main2Activity extends AppCompatActivity {
         int location = usedWord.indexOf(wantedLet);
         TextView zaWord = (TextView) findViewById(R.id.textView1);
         String zeWord = zaWord.getText().toString();
-        String editor = zeWord.substring(0, location*2) +  wantedLet + zeWord.substring((location*2) +1);
+        String editor = zeWord.substring(0, location * 2) + wantedLet + zeWord.substring((location * 2) + 1);
         zaWord.setText(editor);
+        if (editor.indexOf('_')== -1) {
+            buttonA4();
+        }
+    }
 
+    public void buttonA4() {
+        Intent i = new Intent(getApplicationContext(), Main4Activity.class);
+        startActivity(i);
     }
 
     public void notThere() { //add to the hangman
